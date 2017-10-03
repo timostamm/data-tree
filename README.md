@@ -1,7 +1,7 @@
 PHP Tree data structure
 =======================
 
-This library provides as simple node element via discrete Traits. 
+This library provides a tree structure via discrete Traits. 
 
 It is intended to be used by other libraries.  
 
