@@ -1,0 +1,21 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"TS\\Data\\Tree\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"TS\\Data\\Tree\\Tests\\" : "tests/"
+		}
+	},
+	"name" : "timostamm/data-tree",
+	"type" : "library",
+	"license" : "AGPL-3.0",
+	"require" : {
+		"php" : ">=5.5.9"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "~6.3"
+	}
+}
