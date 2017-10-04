@@ -10,49 +10,7 @@ namespace TS\Data\Tree;
 
 trait LookupTrait {
 
-	/*
-	public function walk(Callable $callback)
-	{
-		$r = $callback($this);
-		if ($r === false) {
-			return;
-		}
-		foreach ($this->getChildren() as $child) {
-			$child->walk($callback);
-		}
-	}
-	public function findNode($attributeName, $attributeValue)
-	{
-		if ($this->getAttribute($attributeName) === $attributeValue) {
-			return $this;
-		}
-		foreach ($this->getChildren() as $child) {
-			$found = $child->findNode($attributeName, $attributeValue);
-			if ($found) {
-				return $found;
-			}
-		}
-		return null;
-	}
-	*/
 	
-	/*
-	public function find(callable $where)
-	{
-		if ($where($this)) {
-			return $this;
-		}
-		return $this->descendant($where);
-	}
-	
-	public function closest(callable $where)
-	{
-		if ($where($this)) {
-			return $this;
-		}
-		return $this->ancestor($where);
-	}
-	*/
 	
 	abstract public function getChildren(); 
 	
